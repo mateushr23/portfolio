@@ -1,4 +1,7 @@
 import { ProjectCard } from "./ProjectCard"
+import ThumbNail1 from "../../assets/Thumbnail01.png"
+import ThumbNail2 from "../../assets/Thumbnail02.png"
+import ThumbNail3 from "../../assets/Thumbnail03.png"
 
 export function Projects() {
   return (
@@ -9,20 +12,20 @@ export function Projects() {
       </h2>
       <div className="mt-14 grid grid-cols-3 gap-6 w-[1040px]">
         <ProjectCard
-          src="./assets/Thumbnail01.png"
+          src={ThumbNail1}
           title="Trip Planner"
           description="Planejador de viagens onde é possível selecionar data e destino, além de enviar convites por e-mail e cadastrar atividades."
           link="https://github.com/mateushr23/trip-planner"
         />
         <ProjectCard
-          src="./assets/Thumbnail02.png"
+          src={ThumbNail2}
           title="ToDo List"
           description="Lista de afazeres, onde é possível adicionar atividades, marcá-las como concluídas ou excluí-las."
           link="https://github.com/mateushr23/todo-list"
         />
 
         <ProjectCard
-          src="./assets/Thumbnail03.png"
+          src={ThumbNail3}
           title="Expert Notes"
           description="Quadro de notas em que as notas podem ser gravadas manualmente em forma de texto ou em áudio transcrito."
           link="https://github.com/mateushr23/nlw-expert-notes"

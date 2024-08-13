@@ -8,6 +8,10 @@ export default {
         inconsolata: ["Inconsolata"],
         asap: ["Asap"],
       },
+      backgroundImage: {
+        background1: "url('/assets/background1.png')",
+        background2: "url('/assets/background2.png')",
+      },
     },
     colors: {
       red: "#E3646E",
