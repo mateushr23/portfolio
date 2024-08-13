@@ -21,7 +21,7 @@ export function Projects() {
           src={ThumbNail2}
           title="ToDo List"
           description="Lista de afazeres, onde é possível adicionar atividades, marcá-las como concluídas ou excluí-las."
-          link="https://github.com/mateushr23/todo-list"
+          link="https://mateushr23.github.io/todo-list/"
         />
 
         <ProjectCard
