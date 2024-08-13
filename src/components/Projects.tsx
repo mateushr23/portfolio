@@ -10,7 +10,7 @@ export function Projects() {
       <h2 className="text-gray600 text-2xl font-bold font-asap mt-2">
         Veja os projetos em destaque
       </h2>
-      <div className="mt-14 grid grid-cols-3 gap-6 w-[1040px]">
+      <div className="mt-14 grid grid-cols-1 lg:grid-cols-3 gap-6 w-[500px] lg:w-[1040px]">
         <ProjectCard
           src={ThumbNail1}
           title="Trip Planner"

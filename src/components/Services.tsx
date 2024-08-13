@@ -7,7 +7,7 @@ export function Services() {
       <h2 className="text-gray600 text-2xl font-bold font-asap mt-2">
         Como posso ajudar o seu negócio
       </h2>
-      <div className="grid grid-cols-3 mt-14 gap-6">
+      <div className="grid grid-cols-3 mt-14 gap-6 mx-4">
         <div className="border-gray200 border rounded-xl p-5">
           <Devices className="text-purple" size={55} />
           <h2 className="text-gray600 text-base mt-5 text-start font-asap font-bold">

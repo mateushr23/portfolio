@@ -20,9 +20,9 @@ function scrollDown() {
 export function App() {
   return (
     <div>
-      <div className="bg-background1 flex flex-col items-center text-center min-h-screen pt-32 bg-no-repeat bg-cover">
+      <div className="bg-gray200 lg:bg-background1 flex flex-col items-center text-center min-h-screen pt-32 bg-no-repeat bg-cover">
         <Header />
-        <div className="flex gap-4 mt-20 text-gray500 font-asap text-base">
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 mt-20 text-gray500 font-asap text-base ">
           <Tech src={Github} text={"Github"} />
           <Tech src={HTML} text={"HTML"} />
           <Tech src={CSS} text={"CSS"} />
@@ -34,13 +34,13 @@ export function App() {
           onClick={scrollDown}
         />
       </div>
-      <div className="flex flex-col items-center text-center min-h-screen bg-gray200">
+      <div className="flex flex-col items-center text-center min-h-screen bg-gray200 pb-20">
         <Projects />
       </div>
       <div className="flex flex-col items-center text-center bg-gray100 h-[480px]">
         <Services />
       </div>
-      <div className="bg-background2 flex flex-col items-center justify-center text-center min-h-screen bg-no-repeat bg-cover">
+      <div className="bg-gray200 lg:bg-background2 flex flex-col items-center justify-center text-center min-h-screen bg-no-repeat bg-cover">
         <Contacts />
       </div>
     </div>
