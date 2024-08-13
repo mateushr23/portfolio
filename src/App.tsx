@@ -1,5 +1,7 @@
 import { Header } from "./components/Header"
+import { Projects } from "./components/Projects"
 import { Tech } from "./components/Tech"
+import { CaretDoubleDown } from "@phosphor-icons/react"
 
 export function App() {
   return (
@@ -14,6 +16,10 @@ export function App() {
           <Tech src={"./assets/React.svg"} text={"React"} />
           <Tech src={"./assets/Node.js.svg"} text={"Node.js"} />
         </div>
+        <CaretDoubleDown className="mt-24 size-8 text-gray400" />
+      </div>
+      <div className="flex flex-col items-center text-center min-h-screen bg-gray200">
+        <Projects />
       </div>
     </div>
   )
