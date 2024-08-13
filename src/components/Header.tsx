@@ -15,7 +15,7 @@ export function Header() {
           Desenvolvedor Fullstack
         </h1>
         <p className="text-sm text-gray400 font-maven">
-          Transformo necessidades em aplicações reais, evolventes e funcionais.
+          Transformo necessidades em aplicações reais, envolventes e funcionais.
           Desenvolvo sistemas através da minha paixão pela tecnologia,
           contribuindo com soluções inovadoras e eficazes para desafios
           complexos.

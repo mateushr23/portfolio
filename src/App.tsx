@@ -23,7 +23,6 @@ export function App() {
           <Tech src={"./assets/CSS.svg"} text={"CSS"} />
           <Tech src={"./assets/JavaScript.svg"} text={"Javascript"} />
           <Tech src={"./assets/React.svg"} text={"React"} />
-          <Tech src={"./assets/Node.js.svg"} text={"Node.js"} />
         </div>
         <CaretDoubleDown
           className="mt-24 size-8 text-gray400 cursor-pointer"
