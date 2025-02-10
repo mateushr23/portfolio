@@ -2,6 +2,7 @@ import { ProjectCard } from "./ProjectCard"
 import ThumbNail1 from "../../assets/Thumbnail01.png"
 import ThumbNail2 from "../../assets/Thumbnail02.png"
 import ThumbNail3 from "../../assets/Thumbnail03.png"
+import ThumbNail4 from "../../assets/Thumbnail04.png"
 
 export function Projects() {
   return (
@@ -11,6 +12,12 @@ export function Projects() {
         Veja os projetos em destaque
       </h2>
       <div className="mt-14 grid grid-cols-1 lg:grid-cols-3 gap-6 w-[500px] lg:w-[1040px]">
+        <ProjectCard
+          src={ThumbNail4}
+          title="Core Fecap"
+          description="Site vitrine de uma escola técnica."
+          link="https://corenegocios.com.br/"
+        />
         <ProjectCard
           src={ThumbNail1}
           title="Trip Planner"

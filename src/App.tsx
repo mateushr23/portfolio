@@ -5,10 +5,11 @@ import { Services } from "./components/Services"
 import { Tech } from "./components/Tech"
 import { CaretDoubleDown } from "@phosphor-icons/react"
 import CSS from "../assets/CSS.svg"
-import Github from "../assets/GitHub.svg"
+import Typescript from "../assets/typescript.svg"
 import HTML from "../assets/HTML.svg"
 import JavaScript from "../assets/JavaScript.svg"
 import React from "../assets/React.svg"
+import Node from "../assets/node.svg"
 
 function scrollDown() {
   window.scrollBy({
@@ -22,12 +23,13 @@ export function App() {
     <div>
       <div className="lg:bg-background1 flex flex-col items-center text-center min-h-screen pt-32 bg-no-repeat bg-cover">
         <Header />
-        <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 mt-20 text-gray500 font-asap text-base ">
-          <Tech src={Github} text={"Github"} />
+        <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 mt-20 text-gray500 font-asap text-base ">
           <Tech src={HTML} text={"HTML"} />
           <Tech src={CSS} text={"CSS"} />
           <Tech src={JavaScript} text={"Javascript"} />
+          <Tech src={Typescript} text={"Typescript"} />
           <Tech src={React} text={"React"} />
+          <Tech src={Node} text={"NodeJS"} />
         </div>
         <CaretDoubleDown
           className="mt-24 size-8 text-gray400 cursor-pointer"
